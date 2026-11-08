@@ -1,0 +1,9 @@
+[submodule "cvat"]
+	path = cvat
+	url = https://github.com/cvat-ai/cvat.git
+	branch = develop
+
+[submodule "label-studio"]
+	path = label-studio
+	url = https://github.com/HumanSignal/label-studio.git
+	branch = develop
