@@ -1,0 +1,8 @@
+id,task,text,label,rationale
+SYN-001,sentiment,"The delivery arrived early and the packaging was excellent.",Positive,"Overall opinion is favorable."
+SYN-002,sentiment,"The charger stopped working after one day.",Negative,"The speaker reports a clear product problem."
+SYN-003,sentiment,"The order is scheduled to arrive on Friday.",Neutral,"Factual update without expressed opinion."
+SYN-004,sentiment,"The sound is excellent, but the battery life is poor.",Mixed,"Both positive and negative opinions are expressed."
+SYN-005,intent,"Can you tell me where my package is?",track_order,"The user asks for shipment status."
+SYN-006,intent,"Please cancel the order I placed this morning.",cancel_order,"The user explicitly requests cancellation."
+SYN-007,intent,"My discount code is not being accepted.",promo_issue,"The issue concerns a promotional code."
