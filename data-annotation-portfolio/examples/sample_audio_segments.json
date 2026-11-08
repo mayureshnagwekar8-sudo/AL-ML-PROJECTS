@@ -1,0 +1,34 @@
+{
+  "example_type": "synthetic_illustrative_audio_annotation",
+  "transcript_style": "clean",
+  "segments": [
+    {
+      "start": 0,
+      "end": 1.8,
+      "speaker": "SPEAKER_1",
+      "text": "Please check my delivery status.",
+      "tags": []
+    },
+    {
+      "start": 2,
+      "end": 3.4,
+      "speaker": "SPEAKER_2",
+      "text": "Certainly, I can help with that.",
+      "tags": []
+    },
+    {
+      "start": 3.5,
+      "end": 4.6,
+      "speaker": "SPEAKER_2",
+      "text": "",
+      "tags": [
+        "sound_event:keyboard_typing"
+      ]
+    }
+  ],
+  "notes": [
+    "Speaker IDs remain consistent throughout the sample.",
+    "Use inaudible only when speech cannot be recovered.",
+    "Use crosstalk when overlapping speech prevents reliable transcription."
+  ]
+}
