@@ -1,0 +1,27 @@
+{
+  "example_type": "synthetic_illustrative_ner",
+  "text": "Riya ordered a Galaxy S26 Ultra for $899 in Mumbai on 12 June 2026.",
+  "entities": [
+    {
+      "text": "Riya",
+      "label": "PERSON"
+    },
+    {
+      "text": "Galaxy S26 Ultra",
+      "label": "PRODUCT"
+    },
+    {
+      "text": "$899",
+      "label": "MONEY"
+    },
+    {
+      "text": "Mumbai",
+      "label": "LOCATION"
+    },
+    {
+      "text": "12 June 2026",
+      "label": "DATE"
+    }
+  ],
+  "span_principle": "Use the minimal complete entity span; exclude surrounding punctuation and generic words unless the guideline requires them."
+}
