@@ -1,0 +1,43 @@
+{
+  "example_type": "illustrative_learning_record_not_cvat_export",
+  "task": "Street Scene Annotation",
+  "labels": [
+    "Car",
+    "Person",
+    "Traffic light",
+    "Zebra crossing"
+  ],
+  "tracks": [
+    {
+      "track_id": 1,
+      "label": "Car",
+      "frames": [
+        {
+          "frame": 0,
+          "shape": "rectangle",
+          "state": "visible",
+          "keyframe": true
+        },
+        {
+          "frame": 5,
+          "shape": "rectangle",
+          "state": "visible",
+          "keyframe": false
+        },
+        {
+          "frame": 10,
+          "shape": "rectangle",
+          "state": "occluded",
+          "keyframe": true
+        },
+        {
+          "frame": 15,
+          "shape": "rectangle",
+          "state": "outside",
+          "keyframe": true
+        }
+      ]
+    }
+  ],
+  "notes": "Coordinates intentionally omitted; this record demonstrates track-state concepts only."
+}
